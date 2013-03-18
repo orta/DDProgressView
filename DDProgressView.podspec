@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.license      = 'Custom - Source & Binary attribution'
 
-  s.author       = { "Damien DeVille" => "damien@acrossair.com" }
+  s.authors       = { "Damien DeVille" => "damien@acrossair.com" }
   
   s.source       = { :git => "https://github.com/ddeville/DDProgressView.git", :tag => "0.1" }
   
