@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
 
   s.ios.source_files = 'DDProgressView/DDProgressView.{h,m}'
   s.osx.source_files = 'DDProgressView/DDProgressView.{h,m}', 'DDProgressView/AppKitCompatibility.{h,m}'
+  s.requires_arc = false
 
   s.frameworks  = 'CoreGraphics'
 end
